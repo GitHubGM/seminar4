@@ -1,3 +1,6 @@
+n1=int(input())
+n2=int(input())
+n3=int(input())
 def exe1(a,b,c):
     if a+b>b+c:
         if a+b>a+c:
@@ -9,4 +12,5 @@ def exe1(a,b,c):
             print("наибольшая сумма у b+c",b+c)
     else:
         print("суммы равны")
-exe1(5,6,7)
+exe1(n1,n2,n3)
+

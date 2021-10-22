@@ -1,3 +1,4 @@
+b=int(input("Введите число"))
 def exe2(n):
     sum=0
     i=1
@@ -6,4 +7,4 @@ def exe2(n):
         i=i+1
     print("сумма",sum)
 
-exe2(10)
+exe2(b)
